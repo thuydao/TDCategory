@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDCategory_Example' do
+  pod 'TDCategory', :path => '../'
+
+  target 'TDCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

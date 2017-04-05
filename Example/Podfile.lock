@@ -1,0 +1,16 @@
+PODS:
+  - TDCategory (0.1.0)
+
+DEPENDENCIES:
+  - TDCategory (from `../`)
+
+EXTERNAL SOURCES:
+  TDCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TDCategory: fb3344fee3ebb79417061ba58d2aec37232e5cc1
+
+PODFILE CHECKSUM: d77323981ce08f62d098995c561dd7ec93c604c4
+
+COCOAPODS: 1.2.0

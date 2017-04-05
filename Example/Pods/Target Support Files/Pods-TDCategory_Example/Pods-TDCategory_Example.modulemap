@@ -1,0 +1,6 @@
+framework module Pods_TDCategory_Example {
+  umbrella header "Pods-TDCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

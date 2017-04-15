@@ -19,20 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIAlertController+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>13172C3B61491E9D303E43B3FA17D0D3</key>
+		<key>1BE69CC8391BAD5B36C6626D15BC6CB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>14034B83ADEBCA49D0E9A0CB3C02D5EF</key>
+		<key>1D54B338B239711DED3D8E45C8B2C134</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B0AA5F15370301424F4CA846B820F793</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEEFF4DEC100DC8A794D47DCB280BCCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

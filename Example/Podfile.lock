@@ -1,5 +1,7 @@
 PODS:
-  - TDCategory (0.1.0)
+  - TDCategory (0.2):
+    - UIAlertController+Blocks
+  - UIAlertController+Blocks (0.9.2)
 
 DEPENDENCIES:
   - TDCategory (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TDCategory: fb3344fee3ebb79417061ba58d2aec37232e5cc1
+  TDCategory: 888bec6d05fadf242a1dfd832f691cc5320f0164
+  UIAlertController+Blocks: 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
 
 PODFILE CHECKSUM: d77323981ce08f62d098995c561dd7ec93c604c4
 

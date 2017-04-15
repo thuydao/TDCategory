@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^ChoosePhotoCallback) (UIImage *croppedImage, NSError *error);
+typedef void (^ChoosePhotoCallback) (UIImage *image, NSError *error);
 
 @interface UIViewController (ImagePicker)
 {

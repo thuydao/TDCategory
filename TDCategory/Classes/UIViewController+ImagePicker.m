@@ -58,18 +58,16 @@ static const void *ChoosePhotoCallbackVoid  = &ChoosePhotoCallbackVoid;
     
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     
-    __weak UIViewController *weakSelf = self;
+    self.callback(chosenImage, nil);
     [picker dismissViewControllerAnimated:YES completion:^{
-        weakSelf.callback(chosenImage, nil);
     }];
     
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     
-    __weak UIViewController *weakSelf = self;
+    self.callback(nil, [NSError errorWithDomain:@"User cancel" code:101 userInfo:nil]);
     [picker dismissViewControllerAnimated:YES completion:^{
-        weakSelf.callback(nil, [NSError errorWithDomain:@"User cancel" code:101 userInfo:nil]);
     }];
     
 }

@@ -56,7 +56,7 @@ static const void *ChoosePhotoCallbackVoid  = &ChoosePhotoCallbackVoid;
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
-    UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
+    UIImage *chosenImage = info[UIImagePickerControllerOriginalImage];
     
     self.callback(chosenImage, nil);
     [picker dismissViewControllerAnimated:YES completion:^{

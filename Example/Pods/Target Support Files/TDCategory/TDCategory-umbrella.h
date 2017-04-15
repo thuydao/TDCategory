@@ -34,6 +34,7 @@
 #import "UIView+TDCore.h"
 #import "UIView+TDEvent.h"
 #import "UIView+TDRecognizer.h"
+#import "UIViewController+ImagePicker.h"
 
 FOUNDATION_EXPORT double TDCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char TDCategoryVersionString[];

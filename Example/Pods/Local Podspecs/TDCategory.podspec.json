@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/thuydao/TDCategory.git",
-    "tag": "0.2"
+    "branch": "master"
   },
   "platforms": {
     "ios": "8.0"

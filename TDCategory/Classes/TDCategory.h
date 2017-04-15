@@ -30,6 +30,7 @@
 #import "UIButton+TDEvent.h"
 #import "UIView+TDEvent.h"
 #import "UIView+TDRecognizer.h"
+#import "UIViewController+ImagePicker.h"
 #import <UIAlertController+Blocks/UIAlertController+Blocks.h>
 
 

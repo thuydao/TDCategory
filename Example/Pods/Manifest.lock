@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TDCategory: 888bec6d05fadf242a1dfd832f691cc5320f0164
+  TDCategory: 797d57aa5bd46c63ed916194aaef26718bafad40
   UIAlertController+Blocks: 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
 
 PODFILE CHECKSUM: d77323981ce08f62d098995c561dd7ec93c604c4

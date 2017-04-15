@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "TDCategory/Classes/**/*",
+  "frameworks": "UIKit",
   "dependencies": {
     "UIAlertController+Blocks": [
 

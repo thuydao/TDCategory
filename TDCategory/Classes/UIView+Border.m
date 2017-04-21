@@ -26,3 +26,19 @@
 - (BOOL)masksToBounds                         { return self.layer.masksToBounds; }
 
 @end
+
+@implementation UIView (Circular)
+
+@dynamic isCircular;
+
+- (void)setIsCircular:(BOOL)isCircular
+{
+    self.layer.cornerRadius = self.bounds.size.width/2;
+}
+
+- (BOOL)isCircular
+{
+    return (self.layer.cornerRadius == self.bounds.size.width/2);
+}
+
+@end

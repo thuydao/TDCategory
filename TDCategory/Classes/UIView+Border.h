@@ -16,3 +16,10 @@
 @property (nonatomic) IBInspectable BOOL masksToBounds;
 
 @end
+
+
+@interface UIView (Circular)
+
+@property (nonatomic) IBInspectable BOOL isCircular;
+
+@end

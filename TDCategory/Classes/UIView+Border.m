@@ -33,7 +33,10 @@
 
 - (void)setIsCircular:(BOOL)isCircular
 {
+    if (isCircular)
+    {
     self.layer.cornerRadius = self.bounds.size.width/2;
+    }
 }
 
 - (BOOL)isCircular

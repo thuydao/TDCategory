@@ -17,7 +17,7 @@ typedef void (^ChoosePhotoCallback) (UIImage *image, NSError *error);
 @property (nonatomic, copy) ChoosePhotoCallback callback;
 
 
-- (void)takePhotoCompleted:(ChoosePhotoCallback)completionBlock;
-- (void)choosePhotoCompleted:(ChoosePhotoCallback)completionBlock;
+- (UIImagePickerController *)takePhotoCompleted:(ChoosePhotoCallback)completionBlock;
+- (UIImagePickerController *)choosePhotoCompleted:(ChoosePhotoCallback)completionBlock;
 
 @end

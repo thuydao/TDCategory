@@ -28,20 +28,22 @@ static const void *ChoosePhotoCallbackVoid  = &ChoosePhotoCallbackVoid;
 }
 
 
-- (void)takePhotoCompleted:(ChoosePhotoCallback)completionBlock
+- (UIImagePickerController *)takePhotoCompleted:(ChoosePhotoCallback)completionBlock
 {
     self.callback = completionBlock;
     
-    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) return;
+    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) return nil;
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = (id)self;
       picker.allowsEditing = NO;
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     
     [self presentViewController:picker animated:YES completion:NULL];
+    
+    return picker;
 }
 
-- (void)choosePhotoCompleted:(ChoosePhotoCallback)completionBlock
+- (UIImagePickerController *)choosePhotoCompleted:(ChoosePhotoCallback)completionBlock
 {
     self.callback = completionBlock;
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -50,6 +52,8 @@ static const void *ChoosePhotoCallbackVoid  = &ChoosePhotoCallbackVoid;
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     
     [self presentViewController:picker animated:YES completion:NULL];
+    
+    return picker;
 }
 
 #pragma mark - UIImagePickerControllerDelegate
